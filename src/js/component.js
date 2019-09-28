@@ -108,9 +108,10 @@ $(document).ready(function () {
       }
     });
 
-/*    $('.owl-prev').html('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 6 10"><g data-name="Слой 2"><path d="M.22 4.5L4.74.2a.77.77 0 0 1 1 0 .68.68 0 0 1 0 1L1.78 5l4 3.8a.68.68 0 0 1 0 1 .76.76 0 0 1-1 0L.22 5.49a.68.68 0 0 1 0-1z" data-name="Слой 1"></path></g></svg>')
-    $('.owl-next').html('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 6 10"><g data-name="Слой 2"><path d="M5.79 5.5L1.26 9.79a.77.77 0 0 1-1 0 .68.68 0 0 1 0-1l4-3.8-4-3.8a.68.68 0 0 1 0-1 .76.76 0 0 1 1 0L5.79 4.5a.68.68 0 0 1 0 1z" data-name="Слой 1"></path></g></svg>')*/
 
   }
+  
+  var observer = lozad();
+  observer.observe();
 
 });
