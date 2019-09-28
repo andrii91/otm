@@ -1,0 +1,13 @@
+@import '../../mq';
+
+@media #{$desktop} {
+    @import '../desktop';
+    & {
+	  .head {
+        background-position: center 36%;
+        padding-bottom: 50px;
+      }
+    }
+}
+
+

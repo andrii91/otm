@@ -1,0 +1,12 @@
+@import '../../mq';
+
+@media #{$tabletPortrait} {
+  @import '../mobile';
+
+  & {
+    .head {
+      padding-top: 139px;
+      background-size: 1350px;
+    }
+  }
+}
