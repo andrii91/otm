@@ -15,6 +15,31 @@
   border-color: #fff;
 }
 
+.allert {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  &:hover {
+    p {
+      display: block;
+      z-index: 5;
+      
+    }
+  }
+  p{
+    display: none;
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    width: 215px;
+    padding: 5px;
+    font-size: 12px;
+  }
+  svg {
+    width: 15px;
+  }
+}
 
 
 @font-face {

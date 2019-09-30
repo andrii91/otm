@@ -92,7 +92,7 @@
     position: absolute;
     height: 3px;
     width: 51%;
-    background: #1e2b51;
+    background: #000;
     opacity: 1;
     -webkit-transform: rotate(0deg);
     -moz-transform: rotate(0deg);
@@ -196,6 +196,9 @@
     li {
       display: block;
       margin: 20px 0;
+      &:last-child {
+        display: block;
+      }
     }
   }
 
@@ -218,7 +221,7 @@
     background-color: #f97c2b;
     background-position: 42% -30px;
     background-repeat: no-repeat;
-    padding-top: 115px;
+    padding-top: 160px;
     background-size: 350%;
     display: -ms-flexbox;
     display: flex;
@@ -242,8 +245,9 @@
   }
 
   .head-video {
-    margin-right: auto;
-    margin-top: 30px;
+    margin-right: 0;
+    margin-left: 0;
+    margin-top: 50px;
   }
 
   .fancybox-slide {
@@ -258,7 +262,9 @@
   }
 
   .scroll-nex {
-    right: 7.5px;
+        right: 15px;
+    bottom: 4px;
+
   }
 
   .h2-title {
@@ -329,10 +335,14 @@
 
   .radio-group {
     margin-top: 0;
+    float: right;
   }
 
   .about_info {
     padding: 60px 0;
+    .form {
+      margin-bottom: 40px;
+    }
   }
 
   .about_info-item .img {
@@ -373,7 +383,10 @@
   .about_info-item .content .title {
     font-size: 25px;
   }
-
+  .how_work-item {
+    margin-bottom: 20px;
+    margin-top: 50px;
+  }
   .how_work-item ul li {
     br {
       display: none;
@@ -459,7 +472,7 @@
   }
 
   .faq-item {
-    padding: 24px 15px;
+    padding: 35px;
 
     br {
       display: none;
@@ -472,10 +485,12 @@
   }
   .contacts .form .left {
     max-width: 100%;
+    float: none;
   }
   .contacts .form .right {
     max-width: 100%;
     margin-left: 0;
+    float: none;
   }
   .contacts .form {
     padding: 49px 23px;
@@ -498,6 +513,9 @@
       margin-top: 20px;
       margin-bottom: 20px;
     }
+  }
+  .phone {
+    float: none;
   }
   .footer .phone {
     float: none;
