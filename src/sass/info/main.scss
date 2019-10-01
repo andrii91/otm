@@ -30,7 +30,8 @@ nav {
 .logo {
   display: block;
   img {
-    max-width: 100%;
+    max-width: 124px;
+    margin: -22px;
   }
 }
 
@@ -1216,4 +1217,10 @@ background-color: #ffffff;
     line-height: 24px;
     margin-bottom: 3.438vw;
   }
+}
+
+.footer-logo {
+  max-width: 124px;
+    margin: -22px;
+  filter: invert(100%);
 }
