@@ -56,14 +56,11 @@ $(document).ready(function () {
       return "+" + selectedCountryData.dialCode;
     },
     geoIpLookup: function (success, failure) {
-      /*
-      $.get( "https://ip-api.com/json/", function( data ) {
-      	var countryCode = (data.countryCode) ? data.countryCode : "ru";
-      	success(countryCode);
-      }, "json" );*/
+
 
       $.get("https://ipinfo.io", function () {}, "jsonp").always(function (resp) {
-        var countryCode = (resp && resp.country) ? resp.country : "CA";
+//        var countryCode = (resp && resp.country) ? resp.country : "CA";
+        var countryCode = "CA";
         success(countryCode);
       });
     },
